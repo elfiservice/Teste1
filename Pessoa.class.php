@@ -6,11 +6,11 @@ class Pessoa{
 	private  $segundoNome;
 	private  $idade;
 
-	public function __construct($primeironome, $segundonome){
+	public function __construct($primeironome, $segundonome, $idade){
 
 		$this->primeiroNome = $primeironome;
 		$this->segundoNome = $segundonome;
-
+		$this->idade = $idade;
 
 	}
 
@@ -26,6 +26,9 @@ class Pessoa{
 		$this->segundoNome = $segundonomeset;
 	}
 
+	public function getIdade(){
+		return $this->idade;
+	}
 	//	public abstract function esporte();
 
 }
