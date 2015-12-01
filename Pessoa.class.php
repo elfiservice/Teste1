@@ -4,6 +4,7 @@ class Pessoa{
 
 	private  $primeiroNome;
 	private  $segundoNome;
+	private  $idade;
 
 	public function __construct($primeironome, $segundonome){
 
@@ -28,6 +29,5 @@ class Pessoa{
 	//	public abstract function esporte();
 
 }
-
 
 ?>
