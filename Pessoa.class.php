@@ -5,12 +5,15 @@ class Pessoa{
 	private  $primeiroNome;
 	private  $segundoNome;
 	private  $idade;
+	private $sexo;
 
-	public function __construct($primeironome, $segundonome, $idade){
+	public function __construct($primeironome, $segundonome, $idade, $sexo){
 
 		$this->primeiroNome = $primeironome;
 		$this->segundoNome = $segundonome;
 		$this->idade = $idade;
+		
+		$this->sexo = $sexo;
 
 	}
 
